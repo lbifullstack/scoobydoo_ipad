@@ -14,10 +14,8 @@
 		31FEA855F434C38BAE06B0D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0D6 /* main.m */; };
 		31FEA855F434C38BAE06B0DB /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0DA /* SDAppDelegate.m */; };
 		31FEA855F434C38BAE06B0DE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0DD /* MainStoryboard.storyboard */; };
-		31FEA855F434C38BAE06B0E1 /* SDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E0 /* SDFirstViewController.m */; };
 		31FEA855F434C38BAE06B0E3 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E2 /* first.png */; };
 		31FEA855F434C38BAE06B0E5 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E4 /* first@2x.png */; };
-		31FEA855F434C38BAE06B0E8 /* SDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E7 /* SDSecondViewController.m */; };
 		31FEA855F434C38BAE06B0EA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E9 /* second.png */; };
 		31FEA855F434C38BAE06B0EC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0EB /* second@2x.png */; };
 		31FEA855F434C38BAE06B0F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0F6 /* SenTestingKit.framework */; };
@@ -50,12 +48,8 @@
 		31FEA855F434C38BAE06B0D9 /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B0DA /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B0DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		31FEA855F434C38BAE06B0DF /* SDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDFirstViewController.h; sourceTree = "<group>"; };
-		31FEA855F434C38BAE06B0E0 /* SDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDFirstViewController.m; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B0E2 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B0E4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		31FEA855F434C38BAE06B0E6 /* SDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDSecondViewController.h; sourceTree = "<group>"; };
-		31FEA855F434C38BAE06B0E7 /* SDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSecondViewController.m; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B0E9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B0EB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B0ED /* scoobydo_ipadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scoobydo_ipadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,12 +123,8 @@
 				31FEA855F434C38BAE06B105 /* SDStockListViewController.m */,
 				31FEA855F434C38BAE06B0EB /* second@2x.png */,
 				31FEA855F434C38BAE06B0E9 /* second.png */,
-				31FEA855F434C38BAE06B0E7 /* SDSecondViewController.m */,
-				31FEA855F434C38BAE06B0E6 /* SDSecondViewController.h */,
 				31FEA855F434C38BAE06B0E4 /* first@2x.png */,
 				31FEA855F434C38BAE06B0E2 /* first.png */,
-				31FEA855F434C38BAE06B0E0 /* SDFirstViewController.m */,
-				31FEA855F434C38BAE06B0DF /* SDFirstViewController.h */,
 				31FEA855F434C38BAE06B0DD /* MainStoryboard.storyboard */,
 				31FEA855F434C38BAE06B0DA /* SDAppDelegate.m */,
 				31FEA855F434C38BAE06B0D9 /* SDAppDelegate.h */,
@@ -285,8 +275,6 @@
 			files = (
 				31FEA855F434C38BAE06B0D7 /* main.m in Sources */,
 				31FEA855F434C38BAE06B0DB /* SDAppDelegate.m in Sources */,
-				31FEA855F434C38BAE06B0E1 /* SDFirstViewController.m in Sources */,
-				31FEA855F434C38BAE06B0E8 /* SDSecondViewController.m in Sources */,
 				31FEA855F434C38BAE06B106 /* SDStockListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

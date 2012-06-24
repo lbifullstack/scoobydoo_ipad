@@ -8,13 +8,12 @@
     [super viewDidLoad];
     self.rowCount = [NSNumber numberWithInt:100];
     self.tabBarItem.title = @"Stock Item List";
-
     self.tabBarItem.image = [UIImage imageNamed:@"second.png"];
 }
 
 - (void)viewDidUnload {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
+
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
@@ -37,7 +36,7 @@
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
 
-    NSLog(@"Searching .........");
+    NSLog(@"Searching ......... for %@" , searchBar.text);
     self.rowCount = [NSNumber numberWithUnsignedInt:arc4random() % 100];
     [self.tableView reloadData];
 }
