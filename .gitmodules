@@ -1,0 +1,3 @@
+[submodule "Frank/features"]
+	path = Frank/features
+	url = git@github.com:lbifullstack/scoobydoo_features.git

@@ -36,7 +36,7 @@
 		F80F8ACC159741830093DEDB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E4 /* first@2x.png */; };
 		F80F8ACD159741830093DEDB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E9 /* second.png */; };
 		F80F8ACE159741830093DEDB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0EB /* second@2x.png */; };
-		F80F8AE1159741C10093DEDB /* my_first.feature in Resources */ = {isa = PBXBuildFile; fileRef = F80F8AD8159741C10093DEDB /* my_first.feature */; };
+		F80F8AE1159741C10093DEDB /* my_first.feature_toremove in Resources */ = {isa = PBXBuildFile; fileRef = F80F8AD8159741C10093DEDB /* my_first.feature_toremove */; };
 		F80F8AE2159741C10093DEDB /* launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = F80F8ADA159741C10093DEDB /* launch_steps.rb */; };
 		F80F8AE3159741C10093DEDB /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = F80F8ADC159741C10093DEDB /* env.rb */; };
 		F80F8AE4159741C10093DEDB /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F80F8ADD159741C10093DEDB /* frank_static_resources.bundle */; };
@@ -44,6 +44,10 @@
 		F80F8AE6159741C10093DEDB /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F80F8ADF159741C10093DEDB /* libFrank.a */; };
 		F80F8AE7159741C10093DEDB /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F80F8AE0159741C10093DEDB /* libShelley.a */; };
 		F80F8AEA159741EA0093DEDB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80F8AE8159741E00093DEDB /* CFNetwork.framework */; };
+		F80F8AEA159741EA0093DEDD /* stock_management.feature in Resources */ = {isa = PBXBuildFile; fileRef = F80F8AEA159741EA0093DEDC /* stock_management.feature */; };
+		F80F8AEA159741EA0093DEDF /* we_have_smoke.feature in Resources */ = {isa = PBXBuildFile; fileRef = F80F8AEA159741EA0093DEDE /* we_have_smoke.feature */; };
+		F8877A8215CEF88200EED1B0 /* SDStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8877A8015CEF88200EED1B0 /* SDStatusViewController.m */; };
+		F8877A8315CEF88200EED1B0 /* SDStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8877A8015CEF88200EED1B0 /* SDStatusViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +86,7 @@
 		31FEA855F434C38BAE06B107 /* SDStockListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDStockListViewController.h; sourceTree = "<group>"; };
 		F80F8AD2159741830093DEDB /* scoobydo_ipad copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scoobydo_ipad copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80F8AD4159741830093DEDB /* scoobydo_ipad copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "scoobydo_ipad copy-Info.plist"; path = "/Users/ssmithstone/Development/lbifullstack/scoobydo_ipad/scoobydo_ipad copy-Info.plist"; sourceTree = "<absolute>"; };
-		F80F8AD8159741C10093DEDB /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
+		F80F8AD8159741C10093DEDB /* my_first.feature_toremove */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature_toremove; sourceTree = "<group>"; };
 		F80F8ADA159741C10093DEDB /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
 		F80F8ADC159741C10093DEDB /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
 		F80F8ADD159741C10093DEDB /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
@@ -90,6 +94,11 @@
 		F80F8ADF159741C10093DEDB /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
 		F80F8AE0159741C10093DEDB /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
 		F80F8AE8159741E00093DEDB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F80F8AEA159741EA0093DEDC /* stock_management.feature */ = {isa = PBXFileReference; lastKnownFileType = file.feature; path = stock_management.feature; sourceTree = "<group>"; };
+		F80F8AEA159741EA0093DEDE /* we_have_smoke.feature */ = {isa = PBXFileReference; lastKnownFileType = file.feature; path = we_have_smoke.feature; sourceTree = "<group>"; };
+		F8877A7F15CEF88200EED1B0 /* SDStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDStatusViewController.h; sourceTree = "<group>"; };
+		F8877A8015CEF88200EED1B0 /* SDStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDStatusViewController.m; sourceTree = "<group>"; };
+		F89996B115CEFF73007B4D6E /* scoobydo_ipad Frankified copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "scoobydo_ipad Frankified copy-Info.plist"; path = "/Users/ssmithstone/Development/lbifullstack/scoobydo_ipad/scoobydo_ipad Frankified copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +148,7 @@
 				31FEA855F434C38BAE06B0D0 /* scoobydo_ipad */,
 				31FEA855F434C38BAE06B0FC /* scoobydo_ipadTests */,
 				F80F8AD4159741830093DEDB /* scoobydo_ipad copy-Info.plist */,
+				F89996B115CEFF73007B4D6E /* scoobydo_ipad Frankified copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,6 +186,8 @@
 				31FEA855F434C38BAE06B0DA /* SDAppDelegate.m */,
 				31FEA855F434C38BAE06B0D9 /* SDAppDelegate.h */,
 				31FEA855F434C38BAE06B0D1 /* Supporting Files */,
+				F8877A7F15CEF88200EED1B0 /* SDStatusViewController.h */,
+				F8877A8015CEF88200EED1B0 /* SDStatusViewController.m */,
 			);
 			path = scoobydo_ipad;
 			sourceTree = "<group>";
@@ -225,7 +237,9 @@
 		F80F8AD7159741C10093DEDB /* features */ = {
 			isa = PBXGroup;
 			children = (
-				F80F8AD8159741C10093DEDB /* my_first.feature */,
+				F80F8AEA159741EA0093DEDE /* we_have_smoke.feature */,
+				F80F8AEA159741EA0093DEDC /* stock_management.feature */,
+				F80F8AD8159741C10093DEDB /* my_first.feature_toremove */,
 				F80F8AD9159741C10093DEDB /* step_definitions */,
 				F80F8ADB159741C10093DEDB /* support */,
 			);
@@ -363,11 +377,13 @@
 				F80F8ACC159741830093DEDB /* first@2x.png in Resources */,
 				F80F8ACD159741830093DEDB /* second.png in Resources */,
 				F80F8ACE159741830093DEDB /* second@2x.png in Resources */,
-				F80F8AE1159741C10093DEDB /* my_first.feature in Resources */,
+				F80F8AE1159741C10093DEDB /* my_first.feature_toremove in Resources */,
 				F80F8AE2159741C10093DEDB /* launch_steps.rb in Resources */,
 				F80F8AE3159741C10093DEDB /* env.rb in Resources */,
 				F80F8AE4159741C10093DEDB /* frank_static_resources.bundle in Resources */,
 				F80F8AE5159741C10093DEDB /* frankify.xcconfig in Resources */,
+				F80F8AEA159741EA0093DEDD /* stock_management.feature in Resources */,
+				F80F8AEA159741EA0093DEDF /* we_have_smoke.feature in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +413,7 @@
 				31FEA855F434C38BAE06B0D7 /* main.m in Sources */,
 				31FEA855F434C38BAE06B0DB /* SDAppDelegate.m in Sources */,
 				31FEA855F434C38BAE06B106 /* SDStockListViewController.m in Sources */,
+				F8877A8215CEF88200EED1B0 /* SDStatusViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +432,7 @@
 				F80F8AC1159741830093DEDB /* main.m in Sources */,
 				F80F8AC2159741830093DEDB /* SDAppDelegate.m in Sources */,
 				F80F8AC3159741830093DEDB /* SDStockListViewController.m in Sources */,
+				F8877A8315CEF88200EED1B0 /* SDStatusViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
