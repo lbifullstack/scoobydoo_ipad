@@ -16,16 +16,20 @@
 
 
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSURL *const url = [[NSURL alloc] initWithString:@"http://localhost:4567/status"];
+    NSError * error;
+    NSString *const string = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
+    self.statusLabel.text = [NSString stringWithFormat:@"%@ ... %@" , self.statusLabel.text , string];
 }
 
 - (void)viewDidUnload
 {
+
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SDStatusViewController : UIViewController
+@interface SDStatusViewController : UIViewController {
+
+}
+
+@property IBOutlet UILabel *statusLabel;
 
 @end

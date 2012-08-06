@@ -48,6 +48,8 @@
 		F80F8AEA159741EA0093DEDF /* we_have_smoke.feature in Resources */ = {isa = PBXBuildFile; fileRef = F80F8AEA159741EA0093DEDE /* we_have_smoke.feature */; };
 		F8877A8215CEF88200EED1B0 /* SDStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8877A8015CEF88200EED1B0 /* SDStatusViewController.m */; };
 		F8877A8315CEF88200EED1B0 /* SDStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8877A8015CEF88200EED1B0 /* SDStatusViewController.m */; };
+		F89996B115CEFF73007B4D70 /* server.rb in Resources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D6F /* server.rb */; };
+		F89996B115CEFF73007B4D72 /* hooks.rb in Resources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D71 /* hooks.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		F8877A7F15CEF88200EED1B0 /* SDStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDStatusViewController.h; sourceTree = "<group>"; };
 		F8877A8015CEF88200EED1B0 /* SDStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDStatusViewController.m; sourceTree = "<group>"; };
 		F89996B115CEFF73007B4D6E /* scoobydo_ipad Frankified copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "scoobydo_ipad Frankified copy-Info.plist"; path = "/Users/ssmithstone/Development/lbifullstack/scoobydo_ipad/scoobydo_ipad Frankified copy-Info.plist"; sourceTree = "<absolute>"; };
+		F89996B115CEFF73007B4D6F /* server.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = server.rb; sourceTree = "<group>"; };
+		F89996B115CEFF73007B4D71 /* hooks.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = hooks.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +261,8 @@
 		F80F8ADB159741C10093DEDB /* support */ = {
 			isa = PBXGroup;
 			children = (
+				F89996B115CEFF73007B4D71 /* hooks.rb */,
+				F89996B115CEFF73007B4D6F /* server.rb */,
 				F80F8ADC159741C10093DEDB /* env.rb */,
 			);
 			path = support;
@@ -356,6 +362,8 @@
 				31FEA855F434C38BAE06B0E5 /* first@2x.png in Resources */,
 				31FEA855F434C38BAE06B0EA /* second.png in Resources */,
 				31FEA855F434C38BAE06B0EC /* second@2x.png in Resources */,
+				F89996B115CEFF73007B4D70 /* server.rb in Resources */,
+				F89996B115CEFF73007B4D72 /* hooks.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
