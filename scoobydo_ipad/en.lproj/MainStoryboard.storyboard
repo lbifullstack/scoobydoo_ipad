@@ -46,7 +46,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Status" id="x2F-IB-mqU"/>
+                    <tabBarItem key="tabBarItem" title="Status" image="lightbulb.png" id="x2F-IB-mqU"/>
                     <connections>
                         <outlet property="statusLabel" destination="JqM-SG-zGS" id="4PR-iz-Pal"/>
                     </connections>
@@ -77,7 +77,7 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="zyR-Sk-MrA">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="stockItem" id="zyR-Sk-MrA">
                                 <rect key="frame" x="0.0" y="66" width="1024" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -88,26 +88,39 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="fBr-mz-NKu" id="r7E-UH-ZFw"/>
+                            <outlet property="dataSource" destination="NJB-lq-g2J" id="la4-Bl-kvY"/>
                             <outlet property="delegate" destination="fBr-mz-NKu" id="Uvx-it-TFt"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="zeu-sE-OMT"/>
+                    <tabBarItem key="tabBarItem" title="Stock" image="database.png" id="zeu-sE-OMT"/>
+                    <connections>
+                        <outlet property="stockData" destination="NJB-lq-g2J" id="OJR-z1-9IS"/>
+                    </connections>
                 </tableViewController>
+                <customObject id="NJB-lq-g2J" customClass="SDStockData"/>
             </objects>
             <point key="canvasLocation" x="-3545" y="-1271"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="database.png" width="26" height="26"/>
+        <image name="lightbulb.png" width="26" height="26"/>
+    </resources>
     <classes>
         <class className="SDStatusViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SDStatusViewController.h"/>
             <relationships>
-                <relationship kind="outlet" name="moo" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="statusLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
+        <class className="SDStockData" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SDStockData.h"/>
+        </class>
         <class className="SDStockListViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SDStockListViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="stockData" candidateClass="SDStockData"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

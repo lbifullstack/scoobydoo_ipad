@@ -36,7 +36,6 @@
 		F80F8ACC159741830093DEDB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E4 /* first@2x.png */; };
 		F80F8ACD159741830093DEDB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E9 /* second.png */; };
 		F80F8ACE159741830093DEDB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0EB /* second@2x.png */; };
-		F80F8AE1159741C10093DEDB /* my_first.feature_toremove in Resources */ = {isa = PBXBuildFile; fileRef = F80F8AD8159741C10093DEDB /* my_first.feature_toremove */; };
 		F80F8AE2159741C10093DEDB /* launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = F80F8ADA159741C10093DEDB /* launch_steps.rb */; };
 		F80F8AE3159741C10093DEDB /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = F80F8ADC159741C10093DEDB /* env.rb */; };
 		F80F8AE4159741C10093DEDB /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F80F8ADD159741C10093DEDB /* frank_static_resources.bundle */; };
@@ -50,6 +49,12 @@
 		F8877A8315CEF88200EED1B0 /* SDStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8877A8015CEF88200EED1B0 /* SDStatusViewController.m */; };
 		F89996B115CEFF73007B4D70 /* server.rb in Resources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D6F /* server.rb */; };
 		F89996B115CEFF73007B4D72 /* hooks.rb in Resources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D71 /* hooks.rb */; };
+		F89996B115CEFF73007B4D74 /* SDStockData.m in Sources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D73 /* SDStockData.m */; };
+		F89996B115CEFF73007B4D75 /* SDStockData.m in Sources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D73 /* SDStockData.m */; };
+		F89996B115CEFF73007B4D76 /* SDStockData.m in Sources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D73 /* SDStockData.m */; };
+		F8B8AB7915D2556D00F3A6E7 /* lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B8AB7815D2556D00F3A6E7 /* lightbulb.png */; };
+		F8B8AB7C15D2565E00F3A6E7 /* database.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B8AB7B15D2565E00F3A6E7 /* database.png */; };
+		F8B8AB7D15D2565E00F3A6E7 /* database.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B8AB7B15D2565E00F3A6E7 /* database.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +93,6 @@
 		31FEA855F434C38BAE06B107 /* SDStockListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDStockListViewController.h; sourceTree = "<group>"; };
 		F80F8AD2159741830093DEDB /* scoobydo_ipad copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scoobydo_ipad copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80F8AD4159741830093DEDB /* scoobydo_ipad copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "scoobydo_ipad copy-Info.plist"; path = "/Users/ssmithstone/Development/lbifullstack/scoobydo_ipad/scoobydo_ipad copy-Info.plist"; sourceTree = "<absolute>"; };
-		F80F8AD8159741C10093DEDB /* my_first.feature_toremove */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature_toremove; sourceTree = "<group>"; };
 		F80F8ADA159741C10093DEDB /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
 		F80F8ADC159741C10093DEDB /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
 		F80F8ADD159741C10093DEDB /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
@@ -103,6 +107,10 @@
 		F89996B115CEFF73007B4D6E /* scoobydo_ipad Frankified copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "scoobydo_ipad Frankified copy-Info.plist"; path = "/Users/ssmithstone/Development/lbifullstack/scoobydo_ipad/scoobydo_ipad Frankified copy-Info.plist"; sourceTree = "<absolute>"; };
 		F89996B115CEFF73007B4D6F /* server.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = server.rb; sourceTree = "<group>"; };
 		F89996B115CEFF73007B4D71 /* hooks.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = hooks.rb; sourceTree = "<group>"; };
+		F89996B115CEFF73007B4D73 /* SDStockData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDStockData.m; sourceTree = "<group>"; };
+		F89996B115CEFF73007B4D77 /* SDStockData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDStockData.h; sourceTree = "<group>"; };
+		F8B8AB7815D2556D00F3A6E7 /* lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb.png; sourceTree = "<group>"; };
+		F8B8AB7B15D2565E00F3A6E7 /* database.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = database.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +188,10 @@
 		31FEA855F434C38BAE06B0D0 /* scoobydo_ipad */ = {
 			isa = PBXGroup;
 			children = (
+				F8B8AB7B15D2565E00F3A6E7 /* database.png */,
+				F8B8AB7815D2556D00F3A6E7 /* lightbulb.png */,
+				F89996B115CEFF73007B4D77 /* SDStockData.h */,
+				F89996B115CEFF73007B4D73 /* SDStockData.m */,
 				31FEA855F434C38BAE06B107 /* SDStockListViewController.h */,
 				31FEA855F434C38BAE06B105 /* SDStockListViewController.m */,
 				31FEA855F434C38BAE06B0EB /* second@2x.png */,
@@ -243,7 +255,6 @@
 			children = (
 				F80F8AEA159741EA0093DEDE /* we_have_smoke.feature */,
 				F80F8AEA159741EA0093DEDC /* stock_management.feature */,
-				F80F8AD8159741C10093DEDB /* my_first.feature_toremove */,
 				F80F8AD9159741C10093DEDB /* step_definitions */,
 				F80F8ADB159741C10093DEDB /* support */,
 			);
@@ -364,6 +375,8 @@
 				31FEA855F434C38BAE06B0EC /* second@2x.png in Resources */,
 				F89996B115CEFF73007B4D70 /* server.rb in Resources */,
 				F89996B115CEFF73007B4D72 /* hooks.rb in Resources */,
+				F8B8AB7915D2556D00F3A6E7 /* lightbulb.png in Resources */,
+				F8B8AB7C15D2565E00F3A6E7 /* database.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,13 +398,13 @@
 				F80F8ACC159741830093DEDB /* first@2x.png in Resources */,
 				F80F8ACD159741830093DEDB /* second.png in Resources */,
 				F80F8ACE159741830093DEDB /* second@2x.png in Resources */,
-				F80F8AE1159741C10093DEDB /* my_first.feature_toremove in Resources */,
 				F80F8AE2159741C10093DEDB /* launch_steps.rb in Resources */,
 				F80F8AE3159741C10093DEDB /* env.rb in Resources */,
 				F80F8AE4159741C10093DEDB /* frank_static_resources.bundle in Resources */,
 				F80F8AE5159741C10093DEDB /* frankify.xcconfig in Resources */,
 				F80F8AEA159741EA0093DEDD /* stock_management.feature in Resources */,
 				F80F8AEA159741EA0093DEDF /* we_have_smoke.feature in Resources */,
+				F8B8AB7D15D2565E00F3A6E7 /* database.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +435,7 @@
 				31FEA855F434C38BAE06B0DB /* SDAppDelegate.m in Sources */,
 				31FEA855F434C38BAE06B106 /* SDStockListViewController.m in Sources */,
 				F8877A8215CEF88200EED1B0 /* SDStatusViewController.m in Sources */,
+				F89996B115CEFF73007B4D74 /* SDStockData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31FEA855F434C38BAE06B104 /* scoobydo_ipadTests.m in Sources */,
+				F89996B115CEFF73007B4D75 /* SDStockData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +456,7 @@
 				F80F8AC2159741830093DEDB /* SDAppDelegate.m in Sources */,
 				F80F8AC3159741830093DEDB /* SDStockListViewController.m in Sources */,
 				F8877A8315CEF88200EED1B0 /* SDStatusViewController.m in Sources */,
+				F89996B115CEFF73007B4D76 /* SDStockData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

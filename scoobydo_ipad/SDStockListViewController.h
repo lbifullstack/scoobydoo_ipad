@@ -1,12 +1,13 @@
 #import <Foundation/Foundation.h>
+#import "SDStockData.h"
+
 
 
 @interface SDStockListViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate> {
-
-    NSNumber *rowCount;
-
+    IBOutlet SDStockData *stockData;
 }
 
-@property(nonatomic, strong) NSNumber *rowCount;
+@property(nonatomic, strong) SDStockData *stockData;
+
 
 @end
