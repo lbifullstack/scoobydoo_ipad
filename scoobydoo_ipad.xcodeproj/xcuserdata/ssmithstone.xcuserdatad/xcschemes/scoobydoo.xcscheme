@@ -6,14 +6,17 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
+            buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForTesting = "YES">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "31FEA855F434C38BAE06B0EE"
-               BuildableName = "scoobydo_ipadTests.octest"
-               BlueprintName = "scoobydo_ipadTests"
-               ReferencedContainer = "container:scoobydo_ipad.xcodeproj">
+               BlueprintIdentifier = "31FEA855F434C38BAE06B0C2"
+               BuildableName = "scoobydoo_ipad.app"
+               BlueprintName = "scoobydoo"
+               ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -24,27 +27,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "31FEA855F434C38BAE06B0EE"
-               BuildableName = "scoobydo_ipadTests.octest"
-               BlueprintName = "scoobydo_ipadTests"
-               ReferencedContainer = "container:scoobydo_ipad.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "31FEA855F434C38BAE06B0C2"
+            BuildableName = "scoobydoo_ipad.app"
+            BlueprintName = "scoobydoo"
+            ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

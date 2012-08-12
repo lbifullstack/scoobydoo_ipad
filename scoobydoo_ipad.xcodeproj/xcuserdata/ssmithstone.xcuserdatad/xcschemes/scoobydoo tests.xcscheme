@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F80F8ABF159741830093DEDB"
-               BuildableName = "scoobydo_ipad copy.app"
-               BlueprintName = "scoobydo_ipad Frankified"
-               ReferencedContainer = "container:scoobydo_ipad.xcodeproj">
+               BlueprintIdentifier = "31FEA855F434C38BAE06B0EE"
+               BuildableName = "scoobydoo_ipadTests.octest"
+               BlueprintName = "scoobydoo tests"
+               ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,16 +27,17 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "31FEA855F434C38BAE06B0EE"
+               BuildableName = "scoobydoo_ipadTests.octest"
+               BlueprintName = "scoobydoo tests"
+               ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F80F8ABF159741830093DEDB"
-            BuildableName = "scoobydo_ipad copy.app"
-            BlueprintName = "scoobydo_ipad Frankified"
-            ReferencedContainer = "container:scoobydo_ipad.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -47,15 +48,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F80F8ABF159741830093DEDB"
-            BuildableName = "scoobydo_ipad copy.app"
-            BlueprintName = "scoobydo_ipad Frankified"
-            ReferencedContainer = "container:scoobydo_ipad.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -65,15 +57,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F80F8ABF159741830093DEDB"
-            BuildableName = "scoobydo_ipad copy.app"
-            BlueprintName = "scoobydo_ipad Frankified"
-            ReferencedContainer = "container:scoobydo_ipad.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

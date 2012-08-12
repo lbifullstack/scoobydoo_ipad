@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F899969115CEFF73007B4D6E"
-               BuildableName = "scoobydo_ipad copy.app"
-               BlueprintName = "scoobydo_ipad Frankified copy"
-               ReferencedContainer = "container:scoobydo_ipad.xcodeproj">
+               BlueprintIdentifier = "F84C3C6515D7FF6A00765CA2"
+               BuildableName = "scoobydoo copy.app"
+               BlueprintName = "scoobydoo frankified"
+               ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F899969115CEFF73007B4D6E"
-            BuildableName = "scoobydo_ipad copy.app"
-            BlueprintName = "scoobydo_ipad Frankified copy"
-            ReferencedContainer = "container:scoobydo_ipad.xcodeproj">
+            BlueprintIdentifier = "F84C3C6515D7FF6A00765CA2"
+            BuildableName = "scoobydoo copy.app"
+            BlueprintName = "scoobydoo frankified"
+            ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F899969115CEFF73007B4D6E"
-            BuildableName = "scoobydo_ipad copy.app"
-            BlueprintName = "scoobydo_ipad Frankified copy"
-            ReferencedContainer = "container:scoobydo_ipad.xcodeproj">
+            BlueprintIdentifier = "F84C3C6515D7FF6A00765CA2"
+            BuildableName = "scoobydoo copy.app"
+            BlueprintName = "scoobydoo frankified"
+            ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F899969115CEFF73007B4D6E"
-            BuildableName = "scoobydo_ipad copy.app"
-            BlueprintName = "scoobydo_ipad Frankified copy"
-            ReferencedContainer = "container:scoobydo_ipad.xcodeproj">
+            BlueprintIdentifier = "F84C3C6515D7FF6A00765CA2"
+            BuildableName = "scoobydoo copy.app"
+            BlueprintName = "scoobydoo frankified"
+            ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
