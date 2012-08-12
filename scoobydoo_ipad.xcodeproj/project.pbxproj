@@ -18,11 +18,6 @@
 		31FEA855F434C38BAE06B0E5 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E4 /* first@2x.png */; };
 		31FEA855F434C38BAE06B0EA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0E9 /* second.png */; };
 		31FEA855F434C38BAE06B0EC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0EB /* second@2x.png */; };
-		31FEA855F434C38BAE06B0F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0F6 /* SenTestingKit.framework */; };
-		31FEA855F434C38BAE06B0F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0CA /* UIKit.framework */; };
-		31FEA855F434C38BAE06B0F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0CC /* Foundation.framework */; };
-		31FEA855F434C38BAE06B101 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B100 /* InfoPlist.strings */; };
-		31FEA855F434C38BAE06B104 /* scoobydo_ipadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B103 /* scoobydo_ipadTests.m */; };
 		31FEA855F434C38BAE06B106 /* SDStockListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B105 /* SDStockListViewController.m */; };
 		F84C3C6715D7FF6A00765CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0D6 /* main.m */; };
 		F84C3C6815D7FF6A00765CA2 /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0DA /* SDAppDelegate.m */; };
@@ -49,20 +44,14 @@
 		F89996B115CEFF73007B4D70 /* server.rb in Resources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D6F /* server.rb */; };
 		F89996B115CEFF73007B4D72 /* hooks.rb in Resources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D71 /* hooks.rb */; };
 		F89996B115CEFF73007B4D74 /* SDStockData.m in Sources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D73 /* SDStockData.m */; };
-		F89996B115CEFF73007B4D75 /* SDStockData.m in Sources */ = {isa = PBXBuildFile; fileRef = F89996B115CEFF73007B4D73 /* SDStockData.m */; };
+		F89BC94015D80C5900EF897D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0F6 /* SenTestingKit.framework */; };
+		F89BC94115D80C5900EF897D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0CA /* UIKit.framework */; };
+		F89BC94215D80C5900EF897D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FEA855F434C38BAE06B0CC /* Foundation.framework */; };
+		F89BC94815D80C5900EF897D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F89BC94615D80C5900EF897D /* InfoPlist.strings */; };
+		F89BC94B15D80C5900EF897D /* scoobydoo_tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F89BC94A15D80C5900EF897D /* scoobydoo_tests.m */; };
 		F8B8AB7915D2556D00F3A6E7 /* lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B8AB7815D2556D00F3A6E7 /* lightbulb.png */; };
 		F8B8AB7C15D2565E00F3A6E7 /* database.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B8AB7B15D2565E00F3A6E7 /* database.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		31FEA855F434C38BAE06B0FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31FEA855F434C38BAE06B0BB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 31FEA855F434C38BAE06B0C2;
-			remoteInfo = scoobydo_ipad;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		31FEA855F434C38BAE06B0C1 /* scoobydoo_ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scoobydoo_ipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,12 +69,7 @@
 		31FEA855F434C38BAE06B0E4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B0E9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B0EB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		31FEA855F434C38BAE06B0ED /* scoobydoo_ipadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scoobydoo_ipadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FEA855F434C38BAE06B0F6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		31FEA855F434C38BAE06B0FE /* scoobydoo_ipadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scoobydoo_ipadTests-Info.plist"; sourceTree = "<group>"; };
-		31FEA855F434C38BAE06B0FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		31FEA855F434C38BAE06B102 /* scoobydo_ipadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scoobydo_ipadTests.h; sourceTree = "<group>"; };
-		31FEA855F434C38BAE06B103 /* scoobydo_ipadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scoobydo_ipadTests.m; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B105 /* SDStockListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDStockListViewController.m; sourceTree = "<group>"; };
 		31FEA855F434C38BAE06B107 /* SDStockListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDStockListViewController.h; sourceTree = "<group>"; };
 		F80F8AD4159741830093DEDB /* scoobydoo_ipad copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scoobydoo_ipad copy-Info.plist"; sourceTree = "<group>"; };
@@ -107,6 +91,12 @@
 		F89996B115CEFF73007B4D71 /* hooks.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = hooks.rb; sourceTree = "<group>"; };
 		F89996B115CEFF73007B4D73 /* SDStockData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDStockData.m; sourceTree = "<group>"; };
 		F89996B115CEFF73007B4D77 /* SDStockData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDStockData.h; sourceTree = "<group>"; };
+		F89BC93F15D80C5900EF897D /* scoobydoo_tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scoobydoo_tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89BC94515D80C5900EF897D /* scoobydoo_tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scoobydoo_tests-Info.plist"; sourceTree = "<group>"; };
+		F89BC94715D80C5900EF897D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F89BC94915D80C5900EF897D /* scoobydoo_tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scoobydoo_tests.h; sourceTree = "<group>"; };
+		F89BC94A15D80C5900EF897D /* scoobydoo_tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scoobydoo_tests.m; sourceTree = "<group>"; };
+		F89BC94C15D80C5900EF897D /* scoobydoo_tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scoobydoo_tests-Prefix.pch"; sourceTree = "<group>"; };
 		F8B8AB7815D2556D00F3A6E7 /* lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb.png; sourceTree = "<group>"; };
 		F8B8AB7B15D2565E00F3A6E7 /* database.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = database.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,16 +109,6 @@
 				31FEA855F434C38BAE06B0CB /* UIKit.framework in Frameworks */,
 				31FEA855F434C38BAE06B0CD /* Foundation.framework in Frameworks */,
 				31FEA855F434C38BAE06B0CF /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31FEA855F434C38BAE06B0F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31FEA855F434C38BAE06B0F7 /* SenTestingKit.framework in Frameworks */,
-				31FEA855F434C38BAE06B0F8 /* UIKit.framework in Frameworks */,
-				31FEA855F434C38BAE06B0F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +125,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F89BC93B15D80C5900EF897D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89BC94015D80C5900EF897D /* SenTestingKit.framework in Frameworks */,
+				F89BC94115D80C5900EF897D /* UIKit.framework in Frameworks */,
+				F89BC94215D80C5900EF897D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -153,10 +143,10 @@
 			children = (
 				F80F8AE8159741E00093DEDB /* CFNetwork.framework */,
 				F80F8AD6159741C10093DEDB /* Frank */,
+				F89BC94315D80C5900EF897D /* scoobydoo_tests */,
 				31FEA855F434C38BAE06B0BE /* Products */,
 				31FEA855F434C38BAE06B0C9 /* Frameworks */,
 				31FEA855F434C38BAE06B0D0 /* scoobydo_ipad */,
-				31FEA855F434C38BAE06B0FC /* scoobydo_ipadTests */,
 				F80F8AD4159741830093DEDB /* scoobydoo_ipad copy-Info.plist */,
 				F89996B115CEFF73007B4D6E /* scoobydo_ipad Frankified copy-Info.plist */,
 				F84C3C8015D7FF6B00765CA2 /* scoobydoo copy-Info.plist */,
@@ -167,8 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				31FEA855F434C38BAE06B0C1 /* scoobydoo_ipad.app */,
-				31FEA855F434C38BAE06B0ED /* scoobydoo_ipadTests.octest */,
 				F84C3C7E15D7FF6A00765CA2 /* scoobydoo frankified.app */,
+				F89BC93F15D80C5900EF897D /* scoobydoo_tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,25 +208,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		31FEA855F434C38BAE06B0FC /* scoobydo_ipadTests */ = {
-			isa = PBXGroup;
-			children = (
-				31FEA855F434C38BAE06B103 /* scoobydo_ipadTests.m */,
-				31FEA855F434C38BAE06B102 /* scoobydo_ipadTests.h */,
-				31FEA855F434C38BAE06B0FD /* Supporting Files */,
-			);
-			path = scoobydo_ipadTests;
-			sourceTree = "<group>";
-		};
-		31FEA855F434C38BAE06B0FD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				31FEA855F434C38BAE06B100 /* InfoPlist.strings */,
-				31FEA855F434C38BAE06B0FE /* scoobydoo_ipadTests-Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		F80F8AD6159741C10093DEDB /* Frank */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +249,26 @@
 			path = support;
 			sourceTree = "<group>";
 		};
+		F89BC94315D80C5900EF897D /* scoobydoo_tests */ = {
+			isa = PBXGroup;
+			children = (
+				F89BC94915D80C5900EF897D /* scoobydoo_tests.h */,
+				F89BC94A15D80C5900EF897D /* scoobydoo_tests.m */,
+				F89BC94415D80C5900EF897D /* Supporting Files */,
+			);
+			path = scoobydoo_tests;
+			sourceTree = "<group>";
+		};
+		F89BC94415D80C5900EF897D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89BC94515D80C5900EF897D /* scoobydoo_tests-Info.plist */,
+				F89BC94615D80C5900EF897D /* InfoPlist.strings */,
+				F89BC94C15D80C5900EF897D /* scoobydoo_tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -298,25 +289,6 @@
 			productReference = 31FEA855F434C38BAE06B0C1 /* scoobydoo_ipad.app */;
 			productType = "com.apple.product-type.application";
 		};
-		31FEA855F434C38BAE06B0EE /* scoobydoo tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 31FEA855F434C38BAE06B0EF /* Build configuration list for PBXNativeTarget "scoobydoo tests" */;
-			buildPhases = (
-				31FEA855F434C38BAE06B0F2 /* Sources */,
-				31FEA855F434C38BAE06B0F3 /* Frameworks */,
-				31FEA855F434C38BAE06B0F4 /* Resources */,
-				31FEA855F434C38BAE06B0F5 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				31FEA855F434C38BAE06B0FB /* PBXTargetDependency */,
-			);
-			name = "scoobydoo tests";
-			productName = scoobydo_ipadTests;
-			productReference = 31FEA855F434C38BAE06B0ED /* scoobydoo_ipadTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 		F84C3C6515D7FF6A00765CA2 /* scoobydoo frankified */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F84C3C7B15D7FF6A00765CA2 /* Build configuration list for PBXNativeTarget "scoobydoo frankified" */;
@@ -333,6 +305,24 @@
 			productName = scoobydo_ipad;
 			productReference = F84C3C7E15D7FF6A00765CA2 /* scoobydoo frankified.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F89BC93E15D80C5900EF897D /* scoobydoo tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89BC94D15D80C5900EF897D /* Build configuration list for PBXNativeTarget "scoobydoo tests" */;
+			buildPhases = (
+				F89BC93A15D80C5900EF897D /* Sources */,
+				F89BC93B15D80C5900EF897D /* Frameworks */,
+				F89BC93C15D80C5900EF897D /* Resources */,
+				F89BC93D15D80C5900EF897D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scoobydoo tests";
+			productName = scoobydoo_tests;
+			productReference = F89BC93F15D80C5900EF897D /* scoobydoo_tests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -355,8 +345,8 @@
 			projectRoot = "";
 			targets = (
 				31FEA855F434C38BAE06B0C2 /* scoobydoo */,
-				31FEA855F434C38BAE06B0EE /* scoobydoo tests */,
 				F84C3C6515D7FF6A00765CA2 /* scoobydoo frankified */,
+				F89BC93E15D80C5900EF897D /* scoobydoo tests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,14 +369,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31FEA855F434C38BAE06B0F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31FEA855F434C38BAE06B101 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F84C3C7015D7FF6A00765CA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,10 +386,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F89BC93C15D80C5900EF897D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89BC94815D80C5900EF897D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31FEA855F434C38BAE06B0F5 /* ShellScript */ = {
+		F89BC93D15D80C5900EF897D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -435,15 +425,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31FEA855F434C38BAE06B0F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31FEA855F434C38BAE06B104 /* scoobydo_ipadTests.m in Sources */,
-				F89996B115CEFF73007B4D75 /* SDStockData.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F84C3C6615D7FF6A00765CA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,15 +437,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		31FEA855F434C38BAE06B0FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 31FEA855F434C38BAE06B0C2 /* scoobydoo */;
-			targetProxy = 31FEA855F434C38BAE06B0FA /* PBXContainerItemProxy */;
+		F89BC93A15D80C5900EF897D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89BC94B15D80C5900EF897D /* scoobydoo_tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXTargetDependency section */
+/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
 		31FEA855F434C38BAE06B0D4 /* InfoPlist.strings */ = {
@@ -483,10 +464,10 @@
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
-		31FEA855F434C38BAE06B100 /* InfoPlist.strings */ = {
+		F89BC94615D80C5900EF897D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				31FEA855F434C38BAE06B0FF /* en */,
+				F89BC94715D80C5900EF897D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -509,7 +490,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "scoobydoo_ipad frankified";
+				PRODUCT_NAME = "scoobydoo_ipad ";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -537,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "scoobydoo_ipad frankified";
+				PRODUCT_NAME = "scoobydoo_ipad ";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -562,40 +543,6 @@
 				INFOPLIST_FILE = "scoobydo_ipad/scoobydoo_ipad-Info.plist";
 				PRODUCT_NAME = scoobydoo_ipad;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		31FEA855F434C38BAE06B0F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/scoobydo_ipad.app/scoobydo_ipad";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "scoobydo_ipad/scoobydo_ipad-Prefix.pch";
-				INFOPLIST_FILE = "scoobydo_ipadTests/scoobydoo_ipadTests-Info.plist";
-				PRODUCT_NAME = scoobydoo_ipadTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
-		31FEA855F434C38BAE06B0F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/scoobydo_ipad.app/scoobydo_ipad";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "scoobydo_ipad/scoobydo_ipad-Prefix.pch";
-				INFOPLIST_FILE = "scoobydo_ipadTests/scoobydoo_ipadTests-Info.plist";
-				PRODUCT_NAME = scoobydoo_ipadTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -633,6 +580,40 @@
 			};
 			name = Debug;
 		};
+		F89BC94E15D80C5900EF897D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scoobydoo_tests/scoobydoo_tests-Prefix.pch";
+				INFOPLIST_FILE = "scoobydoo_tests/scoobydoo_tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		F89BC94F15D80C5900EF897D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scoobydoo_tests/scoobydoo_tests-Prefix.pch";
+				INFOPLIST_FILE = "scoobydoo_tests/scoobydoo_tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -654,15 +635,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31FEA855F434C38BAE06B0EF /* Build configuration list for PBXNativeTarget "scoobydoo tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				31FEA855F434C38BAE06B0F0 /* Release */,
-				31FEA855F434C38BAE06B0F1 /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		F84C3C7B15D7FF6A00765CA2 /* Build configuration list for PBXNativeTarget "scoobydoo frankified" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -671,6 +643,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F89BC94D15D80C5900EF897D /* Build configuration list for PBXNativeTarget "scoobydoo tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89BC94E15D80C5900EF897D /* Release */,
+				F89BC94F15D80C5900EF897D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

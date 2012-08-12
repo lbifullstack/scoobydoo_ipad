@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F84C3C6515D7FF6A00765CA2"
-               BuildableName = "scoobydoo copy.app"
+               BuildableName = "scoobydoo frankified.app"
                BlueprintName = "scoobydoo frankified"
                ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F84C3C6515D7FF6A00765CA2"
-            BuildableName = "scoobydoo copy.app"
+            BuildableName = "scoobydoo frankified.app"
             BlueprintName = "scoobydoo frankified"
             ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F84C3C6515D7FF6A00765CA2"
-            BuildableName = "scoobydoo copy.app"
+            BuildableName = "scoobydoo frankified.app"
             BlueprintName = "scoobydoo frankified"
             ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F84C3C6515D7FF6A00765CA2"
-            BuildableName = "scoobydoo copy.app"
+            BuildableName = "scoobydoo frankified.app"
             BlueprintName = "scoobydoo frankified"
             ReferencedContainer = "container:scoobydoo_ipad.xcodeproj">
          </BuildableReference>

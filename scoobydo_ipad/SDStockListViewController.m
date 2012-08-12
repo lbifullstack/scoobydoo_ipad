@@ -6,8 +6,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.tabBarItem.title = @"Stock Item List";
-//    self.tabBarItem.image = [UIImage imageNamed:@"lightbulb.png"];
 }
 
 - (void)viewDidUnload {
